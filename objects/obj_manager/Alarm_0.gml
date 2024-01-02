@@ -1,0 +1,1 @@
+instance_create(0,(room_height * 2), obj_enemy);

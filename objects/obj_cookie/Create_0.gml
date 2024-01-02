@@ -1,0 +1,14 @@
+image_index = 0;
+image_alpha = 100;
+move = 0;
+moveup = 0;
+hsp = 0;
+movespeed = 0;
+upspeed = 0;
+vsp = 0;
+mask_index = spr_playermask;
+ammo = 10;
+canshoot = true;
+reloading = false;
+reloadtimer = 0;
+reloaded = false;
