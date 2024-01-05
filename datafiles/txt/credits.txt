@@ -1,4 +1,3 @@
 Entire game made by me
 SFX were contributed by VinnieBubs
 Music by Linas
-FMOD by FMOD (I love FMOD)

@@ -20,27 +20,22 @@ if (on)
         x += lengthdir_x(maxspeed, dir);
         y += lengthdir_y(maxspeed, dir);
     }
-	if (HP <= 0)
+	if (obj_cookie.ammo > maxspeed)
 	{
-		on = false;
+		if (maxspeed > 3)
+		{
+			maxspeed -= 0.1;
+		}
 	}
-	if (HP == 0)
+	if (obj_cookie.ammo < maxspeed)
 	{
-		on = false;
-	}
-	if (HP < 0)
-	{
-		on = false;
+		if (maxspeed < 5)
+		{
+			maxspeed += 0.1;
+		}
 	}
 }
 else
 {
-	if (image_alpha > 0)
-	{
-		image_alpha -= 0.01;
-	}
-	if (image_alpha <= 0)
-	{
-		instance_destroy();
-	}
+	
 }

@@ -18,3 +18,14 @@ if (room == Tips)
 		room = Mainmenu;
 	}	
 }
+if (!(window_has_focus()))
+{
+	if (instance_exists(obj_enemy))
+	{
+		obj_enemy.maxspeed = 0;
+	}
+}
+else
+{
+	
+}

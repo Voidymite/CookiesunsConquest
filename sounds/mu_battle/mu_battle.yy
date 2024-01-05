@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 2,
   "conversionMode": 0,
-  "duration": 133.74,
+  "duration": 138.73633,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "mu_battle.wav",
+  "soundFile": "mu_battle.mp3",
   "type": 0,
   "volume": 1.0,
 }

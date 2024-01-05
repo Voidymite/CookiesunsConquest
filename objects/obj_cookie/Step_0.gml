@@ -58,4 +58,19 @@ if (image_yscale < 1)
 {
 	image_yscale = lerp(image_yscale,1,0.1);
 }
+var tip1 = false;
+ini_open("cookieini.ini");
+if (!(ini_read_real("Tip","movetip",false)))
+{
+	draw_text(x,y+35,"PRESS ANYTHING TO MOVE");
+	if (move != 0 || moveup != 0)
+	{
+		ini_write_real("Tip","movetip",true);
+	}
+}
+ini_close();
+if (hurttimer > 0)
+{
+	hurttimer--
+}
 scr_collide();

@@ -12,3 +12,5 @@ canshoot = true;
 reloading = false;
 reloadtimer = 0;
 reloaded = false;
+HP = 100;
+hurttimer = 100;

@@ -40,7 +40,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"mu_battle","path":"sounds/mu_battle/mu_battle.yy",},},
@@ -53,6 +53,7 @@
     {"id":{"name":"gameframe_native","path":"extensions/gameframe_native/gameframe_native.yy",},},
     {"id":{"name":"spr_blackscreen","path":"sprites/spr_blackscreen/spr_blackscreen.yy",},},
     {"id":{"name":"scr_utility","path":"scripts/scr_utility/scr_utility.yy",},},
+    {"id":{"name":"spr_pressanythingtoPlay","path":"sprites/spr_pressanythingtoPlay/spr_pressanythingtoPlay.yy",},},
     {"id":{"name":"spr_gameframe_caption","path":"sprites/spr_gameframe_caption/spr_gameframe_caption.yy",},},
     {"id":{"name":"sfx_hurt","path":"sounds/sfx_hurt/sfx_hurt.yy",},},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
@@ -65,9 +66,11 @@
     {"id":{"name":"spr_loading","path":"sprites/spr_loading/spr_loading.yy",},},
     {"id":{"name":"obj_loading","path":"objects/obj_loading/obj_loading.yy",},},
     {"id":{"name":"spr_cookieparticle","path":"sprites/spr_cookieparticle/spr_cookieparticle.yy",},},
+    {"id":{"name":"mu_menu","path":"sounds/mu_menu/mu_menu.yy",},},
     {"id":{"name":"scr_collide","path":"scripts/scr_collide/scr_collide.yy",},},
     {"id":{"name":"obj_enemyeffect","path":"objects/obj_enemyeffect/obj_enemyeffect.yy",},},
     {"id":{"name":"spr_cookie","path":"sprites/spr_cookie/spr_cookie.yy",},},
+    {"id":{"name":"verysecretroom","path":"rooms/verysecretroom/verysecretroom.yy",},},
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},},
     {"id":{"name":"spr_gameframe_border","path":"sprites/spr_gameframe_border/spr_gameframe_border.yy",},},
     {"id":{"name":"Mainmenu","path":"rooms/Mainmenu/Mainmenu.yy",},},
@@ -96,8 +99,8 @@
     {"roomId":{"name":"Mainmenu","path":"rooms/Mainmenu/Mainmenu.yy",},},
     {"roomId":{"name":"Gameroom","path":"rooms/Gameroom/Gameroom.yy",},},
     {"roomId":{"name":"Tips","path":"rooms/Tips/Tips.yy",},},
+    {"roomId":{"name":"verysecretroom","path":"rooms/verysecretroom/verysecretroom.yy",},},
   ],
-  "templateType": "game",
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"cookie","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

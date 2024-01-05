@@ -1,6 +1,1 @@
-enum player_states
-{
-	titlescreen,
-	starting,
-	playing
-}
+draw_set_font(Cookies);
